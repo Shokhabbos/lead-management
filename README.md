@@ -1,99 +1,99 @@
-# Lead Boshqaruvi Tizimi
+# Lead Management System
 
-Bu loyiha leadlarni boshqarish uchun yaratilgan zamonaviy web ilova. Next.js, TypeScript va Tailwind CSS yordamida qurilgan.
+A modern web application for managing leads, built with Next.js, TypeScript, and Tailwind CSS.
 
-## Asosiy xususiyatlar
+## Key Features
 
-- 🎯 Leadlarni qo'shish, tahrirlash va o'chirish
-- 🔍 Qidiruv va filtrlash imkoniyati
-- 📊 Lead statuslarini boshqarish (Yangi, Jarayonda, Bajarilgan)
-- 🌓 Qorong'i/ochiq mavzu rejimi
-- 📱 Responsive dizayn
-- ⚡ Tezkor ishlash
+- 🎯 Add, edit, and delete leads
+- 🔍 Search and filter functionality
+- 📊 Lead status management (New, In Progress, Completed)
+- 🌓 Dark/Light theme mode
+- 📱 Responsive design
+- ⚡ Fast performance
 
-## Texnologiyalar
+## Technologies
 
 - **Next.js 14** - React framework
-- **TypeScript** - Type xavfsizligi
-- **Tailwind CSS** - Stilizatsiya
-- **Shadcn/ui** - UI komponentlari
-- **React Hook Form** - Formalar boshqaruvi
-- **Zod** - Forma validatsiyasi
-- **TanStack Query** - Ma'lumotlarni boshqarish
-- **Lucide Icons** - Ikonlar
-- **Next Themes** - Mavzu boshqaruvi
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling
+- **Shadcn/ui** - UI components
+- **React Hook Form** - Form management
+- **Zod** - Form validation
+- **TanStack Query** - Data management
+- **Lucide Icons** - Icons
+- **Next Themes** - Theme management
 
-## O'rnatish
+## Installation
 
-1. Repozitoriyani klonlang:
+1. Clone the repository:
 ```bash
 git clone https://github.com/Shokhabbos/lead-management.git
 cd lead-management
 ```
 
-2. Kerakli paketlarni o'rnating:
+2. Install dependencies:
 ```bash
 npm install
-# yoki
+# or
 yarn install
-# yoki
+# or
 pnpm install
 ```
 
-3. Loyihani ishga tushiring:
+3. Run the development server:
 ```bash
 npm run dev
-# yoki
+# or
 yarn dev
-# yoki
+# or
 pnpm dev
 ```
 
-4. Brauzerda oching: [http://localhost:3000](http://localhost:3000)
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Loyiha tuzilishi
+## Project Structure
 
 ```
 src/
 ├── app/                 # Next.js app router
-├── components/         # UI komponentlari
-│   ├── common/        # Umumiy komponentlar
-│   └── ui/            # Shadcn/ui komponentlari
-├── features/          # Asosiy funksionallik
-│   └── leads/         # Lead boshqaruvi
-├── services/          # API va hook'lar
-├── schemas/           # Zod validatsiya sxemalari
-└── providers/         # Context provider'lar
+├── components/         # UI components
+│   ├── common/        # Common components
+│   └── ui/            # Shadcn/ui components
+├── features/          # Core functionality
+│   └── leads/         # Lead management
+├── services/          # API and hooks
+├── schemas/           # Zod validation schemas
+└── providers/         # Context providers
 ```
 
-## Xususiyatlar
+## Features
 
-### Lead Boshqaruvi
-- Yangi lead qo'shish
-- Lead statusini o'zgartirish
-- Lead ma'lumotlarini ko'rish
-- Leadlarni qidirish va filtrlash
+### Lead Management
+- Add new leads
+- Update lead status
+- View lead details
+- Search and filter leads
 
-### Qidiruv va Filtrlash
-- Lead nomi va email bo'yicha qidirish
-- Status bo'yicha filtrlash
-- Natijalar sonini ko'rsatish
+### Search and Filter
+- Search by lead name and email
+- Filter by status
+- Display result count
 
 ### UI/UX
-- Zamonaviy va chiroyli interfeys
-- Responsive dizayn
-- Qorong'i/ochiq mavzu rejimi
-- Animatsiyalar va o'tishlar
+- Modern and beautiful interface
+- Responsive design
+- Dark/Light theme mode
+- Animations and transitions
 
 ## API
 
-Loyiha JSONPlaceholder API dan foydalanadi:
-- `GET /users` - Leadlarni olish
+The project uses JSONPlaceholder API:
+- `GET /users` - Fetch leads
 
-## Yaratuvchi
+## Author
 
-- [Sizning ismingiz](https://github.com/Shokhabbos)
+- [Shokhabbos](https://github.com/Shokhabbos)
 
-## Litsenziya
+## License
 
 MIT
