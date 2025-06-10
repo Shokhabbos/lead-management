@@ -13,7 +13,7 @@ A modern web application for managing leads, built with Next.js, TypeScript, and
 
 ## Technologies
 
-- **Next.js 14** - React framework
+- **Next.js 15** - React framework
 - **TypeScript** - Type safety
 - **Tailwind CSS** - Styling
 - **Shadcn/ui** - UI components
