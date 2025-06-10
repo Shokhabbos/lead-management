@@ -149,7 +149,7 @@ export function AddLeadForm({ onAddLead }: AddLeadFormProps) {
             </FormItem>
           )}
         />
-        <Button type="submit" className="w-full">Qo'shish</Button>
+        <Button type="submit" className="w-full">Qo&apos;shish</Button>
       </form>
     </Form>
   );
