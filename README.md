@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lead Boshqaruvi Tizimi
 
-## Getting Started
+Bu loyiha leadlarni boshqarish uchun yaratilgan zamonaviy web ilova. Next.js, TypeScript va Tailwind CSS yordamida qurilgan.
 
-First, run the development server:
+## Asosiy xususiyatlar
 
+- 🎯 Leadlarni qo'shish, tahrirlash va o'chirish
+- 🔍 Qidiruv va filtrlash imkoniyati
+- 📊 Lead statuslarini boshqarish (Yangi, Jarayonda, Bajarilgan)
+- 🌓 Qorong'i/ochiq mavzu rejimi
+- 📱 Responsive dizayn
+- ⚡ Tezkor ishlash
+
+## Texnologiyalar
+
+- **Next.js 14** - React framework
+- **TypeScript** - Type xavfsizligi
+- **Tailwind CSS** - Stilizatsiya
+- **Shadcn/ui** - UI komponentlari
+- **React Hook Form** - Formalar boshqaruvi
+- **Zod** - Forma validatsiyasi
+- **TanStack Query** - Ma'lumotlarni boshqarish
+- **Lucide Icons** - Ikonlar
+- **Next Themes** - Mavzu boshqaruvi
+
+## O'rnatish
+
+1. Repozitoriyani klonlang:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Shokhabbos/lead-management.git
+cd lead-management
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Kerakli paketlarni o'rnating:
+```bash
+npm install
+# yoki
+yarn install
+# yoki
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Loyihani ishga tushiring:
+```bash
+npm run dev
+# yoki
+yarn dev
+# yoki
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Brauzerda oching: [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+## Loyiha tuzilishi
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/                 # Next.js app router
+├── components/         # UI komponentlari
+│   ├── common/        # Umumiy komponentlar
+│   └── ui/            # Shadcn/ui komponentlari
+├── features/          # Asosiy funksionallik
+│   └── leads/         # Lead boshqaruvi
+├── services/          # API va hook'lar
+├── schemas/           # Zod validatsiya sxemalari
+└── providers/         # Context provider'lar
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Xususiyatlar
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Lead Boshqaruvi
+- Yangi lead qo'shish
+- Lead statusini o'zgartirish
+- Lead ma'lumotlarini ko'rish
+- Leadlarni qidirish va filtrlash
 
-## Deploy on Vercel
+### Qidiruv va Filtrlash
+- Lead nomi va email bo'yicha qidirish
+- Status bo'yicha filtrlash
+- Natijalar sonini ko'rsatish
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### UI/UX
+- Zamonaviy va chiroyli interfeys
+- Responsive dizayn
+- Qorong'i/ochiq mavzu rejimi
+- Animatsiyalar va o'tishlar
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## API
+
+Loyiha JSONPlaceholder API dan foydalanadi:
+- `GET /users` - Leadlarni olish
+
+## Yaratuvchi
+
+- [Sizning ismingiz](https://github.com/Shokhabbos)
+
+## Litsenziya
+
+MIT
