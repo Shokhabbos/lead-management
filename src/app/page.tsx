@@ -69,7 +69,7 @@ export default function Home() {
         </div>
 
         <Tabs defaultValue="leads" className="space-y-8">
-          <TabsList className="w-full sm:w-auto bg-gray-100 dark:bg-gray-800 rounded-xl py-8">
+          <TabsList className="w-full sm:w-auto bg-gray-100 dark:bg-gray-800 rounded-xl px-6 py-8">
             <TabsTrigger value="leads" className="flex-1 sm:flex-none py-4 cursor-pointer">Leadlar</TabsTrigger>
             <TabsTrigger value="add-lead" className="flex-1 sm:flex-none py-4 cursor-pointer">Yangi lead</TabsTrigger>
           </TabsList>
