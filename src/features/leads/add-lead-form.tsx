@@ -36,7 +36,7 @@ export function AddLeadForm({ onAddLead }: AddLeadFormProps) {
       createdAt: new Date().toISOString(),
     });
     form.reset();
-    toast.success('Lead muvaffaqiyatli qo\'shildi');
+    toast.success('Lead muvaffaqiyatli qo&apos;shildi');
   }
 
   return (

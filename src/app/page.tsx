@@ -100,7 +100,7 @@ export default function Home() {
           <TabsContent value="add-lead">
             <Card className="border-2 bg-gray-50 dark:bg-gray-800">
               <CardHeader>
-                <CardTitle className="text-2xl">Yangi lead qo'shish</CardTitle>
+                <CardTitle className="text-2xl">Yangi lead qo&apos;shish</CardTitle>
               </CardHeader>
               <CardContent>
                 <AddLeadForm onAddLead={handleAddLead} />

@@ -21,7 +21,7 @@ export function LeadModal({ lead, isOpen, onClose, onStatusUpdate }: LeadModalPr
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle>Lead ma'lumotlari</DialogTitle>
+          <DialogTitle>Lead statusini o&apos;zgartirish</DialogTitle>
         </DialogHeader>
         <div className="grid gap-4 py-4">
           <div className="space-y-2">

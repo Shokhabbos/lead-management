@@ -54,7 +54,7 @@ export function LeadList({
 
       {searchTerm && (
         <div className="text-lg font-medium text-gray-600 dark:text-gray-300">
-          "{searchTerm}" uchun {totalResults} ta lead topildi
+          &quot;{searchTerm}&quot; uchun {totalResults} ta lead topildi
         </div>
       )}
 
